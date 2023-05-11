@@ -1,0 +1,7 @@
+.ddev
+.vscode
+composer.lock
+/vendor
+/web
+!/web/modules/custom
+!/web/themes
