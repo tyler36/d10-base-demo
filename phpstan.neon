@@ -22,12 +22,11 @@ parameters:
         - web/sites
 
     excludePaths:
-        analyse:
-            - web/core/*
-            - web/*/contrib
-            - web/sites/default/files/*
-            - web/sites/simpletest
-            - "*/vendor/*"
+        - web/core/*
+        - web/*/contrib/*
+        - web/sites/default/files/*
+        - web/sites/simpletest/*
+        - "*/vendor/*"
 
     universalObjectCratesClasses:
         - Drupal\Core\Entity\EntityInterface
