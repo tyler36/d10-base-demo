@@ -40,6 +40,12 @@
         "sort-packages": true
     },
     "extra": {
+        "enable-patching": true,
+        "patches": {
+            "drupal/core": {
+                "improve-phpunit-performance": "./patches/drupal-core_2900208-48.patch"
+            }
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
