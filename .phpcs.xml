@@ -7,7 +7,7 @@
   <arg name="colors"/>
 
   <!-- Additional file types -->
-  <arg name="extensions" value="css,info,inc,install,module,php,profile,md,test,theme,txt,yml"/>
+  <arg name="extensions" value="info,inc,install,module,php,profile,md,test,theme,txt,yml"/>
 
   <!--Exclude third party code.-->
   <exclude-pattern>*/vendor/*</exclude-pattern>
