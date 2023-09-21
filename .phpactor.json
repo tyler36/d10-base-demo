@@ -1,0 +1,6 @@
+{
+    "$schema": "/home/s-hendrix/.vscode-server/data/User/globalStorage/dantleech.vscode-phpactor/phpactor/phpactor.schema.json",
+    "language_server_phpstan.enabled": false,
+    "prophecy.enabled": false,
+    "code_transform.indentation": "  "
+}

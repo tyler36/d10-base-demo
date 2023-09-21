@@ -1,0 +1,10 @@
+name: 'Custom'
+type: theme
+core_version_requirement: ">=9"
+description: ''
+base theme: 'olivero'
+
+dependencies:
+  - drupal:responsive_image:responsive_image
+libraries:
+  - 'custom/global-styling'

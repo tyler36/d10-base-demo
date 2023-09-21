@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.cell
+    - image.style.tablet
+  theme:
+    - custom
+id: cell
+label: Article
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: '_original image_'
+    breakpoint_id: custom.desktop
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: tablet
+    breakpoint_id: custom.tablet
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: cell
+    breakpoint_id: custom.cell
+    multiplier: 1x
+breakpoint_group: custom
+fallback_image_style: cell

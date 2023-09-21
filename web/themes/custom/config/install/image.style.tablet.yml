@@ -1,0 +1,15 @@
+uuid: defa41ca-f7ce-4c19-95e0-002bd2109628
+langcode: en
+status: true
+dependencies: {  }
+name: tablet
+label: 'Tablet (850px)'
+effects:
+  0cee99e5-6800-4b08-bf07-73ec23adc719:
+    uuid: 0cee99e5-6800-4b08-bf07-73ec23adc719
+    id: image_scale
+    weight: 1
+    data:
+      width: 850
+      height: 850
+      upscale: false

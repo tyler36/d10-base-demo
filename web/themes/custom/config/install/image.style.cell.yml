@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: cell
+label: 'Cell (560px)'
+effects:
+  e76bfd3d-737c-4e28-816d-b4424f8ba01d:
+    id: image_scale
+    weight: 1
+    data:
+      width: 560
+      height: 560
+      upscale: false

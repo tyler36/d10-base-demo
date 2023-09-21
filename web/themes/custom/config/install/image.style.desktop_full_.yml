@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+name: desktop_full_
+label: 'Desktop (full)'
+effects: {  }
