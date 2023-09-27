@@ -8,3 +8,4 @@ dependencies:
   - drupal:responsive_image:responsive_image
 libraries:
   - 'custom/global-styling'
+  - 'custom/global-scripts'
