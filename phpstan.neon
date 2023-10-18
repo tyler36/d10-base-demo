@@ -32,22 +32,26 @@ parameters:
         - Drupal\Core\Entity\EntityInterface
 
     ignoreErrors:
-        # new static() is a best practice in Drupal, so we cannot fix that.
-        - "#^Unsafe usage of new static#"
-
-        # Prevent IDE from show error when using single-file traits.
-        -
-            message: "#Trait is used zero times and is not analysed#"
-            paths:
-            - "*Trait.php"
-            reportUnmatched: false
-        -
-            message: '#Variable \$app_root might not be defined\.#'
-            paths:
-                - web/sites/default/settings.php
-                - web/sites/default/default.settings.php
-        -
-            message: '#Variable \$site_path might not be defined\.#'
-            paths:
-                - web/sites/default/settings.php
-                - web/sites/default/default.settings.php
+    - # new static() is a best practice in Drupal, so we cannot fix that.
+      message: "#^Unsafe usage of new static#"
+      reportUnmatched: false
+    - message: '#^Method [a-zA-Z0-9_\\\:()]+ return type has no value type specified in iterable type array\.$#'
+      reportUnmatched: false
+    - # Drupal does not provide these in module/themes so we wont either
+      message: '#^Function [a-zA-Z0-9_()]+ has parameter [a-zA-Z0-9\$_]+ with no value type specified in iterable type array\.$#'
+      paths:
+        - "*.module"
+        - "*.theme"
+      reportUnmatched: false
+    - # Drupal does not provide these in module/themes so we wont either
+      message: '#^PHPDoc tag @var has no value type specified in iterable type array\.$#'
+      reportUnmatched: false
+    # Prevent IDE from show error when using single-file traits.
+    - message: "#Trait is used zero times and is not analysed#"
+      paths:
+        - "*Trait.php"
+      reportUnmatched: false
+    - message: '#Variable [a-zA-Z0-9_\$]+ might not be defined\.#'
+      paths:
+        - web/sites/default/settings.php
+        - web/sites/default/default.settings.php
