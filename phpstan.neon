@@ -22,10 +22,10 @@ parameters:
         - web/sites
 
     excludePaths:
-        - web/core/*
-        - web/*/contrib/*
-        - web/sites/default/files/*
-        - web/sites/simpletest/*
+        - "*/web/core/*"
+        - "*/web/*/contrib/*"
+        - "*/web/sites/default/files/*"
+        - "*/web/sites/simpletest/*"
         - "*/vendor/*"
 
     universalObjectCratesClasses:
