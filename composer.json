@@ -111,7 +111,7 @@
         "drupal/devel": "^5.1",
         "drupal/ignition": "^1.0@alpha",
         "drupal/webprofiler": "^10.0",
-        "drush/drush": "^11.4",
+        "drush/drush": "^12.4",
         "jangregor/phpstan-prophecy": "^1.0",
         "mglaman/phpstan-drupal": "^1.1",
         "phpspec/prophecy-phpunit": "^2.0",
