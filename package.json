@@ -1,25 +1,34 @@
 {
-  "devDependencies": {
-    "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.2",
-    "eslint": "^8.40.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.1",
-    "eslint-plugin-yml": "^1.7.0",
-    "prettier": "^3.0.3",
-    "stylelint": "^16.0.2",
-    "stylelint-config-standard": "^35.0.0",
-    "stylelint-order": "^6.0.3",
-    "textlint": "^13.3.3",
-    "textlint-filter-rule-comments": "^1.2.2",
-    "textlint-rule-alex": "^4.0.0",
-    "textlint-rule-date-weekday-mismatch": "^1.0.6",
-    "textlint-rule-doubled-spaces": "^1.0.2",
-    "textlint-rule-en-capitalization": "^2.0.3",
-    "textlint-rule-no-todo": "^2.0.1",
-    "textlint-rule-preset-japanese": "^9.0.0",
-    "textlint-rule-stop-words": "^4.0.0",
-    "textlint-rule-terminology": "^4.0.0",
-    "textlint-rule-write-good": "^2.0.0"
-  }
+    "scripts": {
+        "dev": "tailwindcss --postcss -i ./web/themes/custom/assets/css/app.css -o ./web/themes/custom/dist/app.css --watch",
+        "build": "tailwindcss --postcss -i ./web/themes/custom/assets/css/app.css -o ./web/themes/custom/dist/app.css --minify"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.7",
+        "@tailwindcss/typography": "^0.5.10",
+        "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.2",
+        "autoprefixer": "^10.4.16",
+        "eslint": "^8.40.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-plugin-prettier": "^5.0.1",
+        "eslint-plugin-yml": "^1.7.0",
+        "postcss": "^8.4.32",
+        "prettier": "^3.0.3",
+        "stylelint": "^16.0.2",
+        "stylelint-config-standard": "^35.0.0",
+        "stylelint-order": "^6.0.3",
+        "tailwindcss": "^3.4.0",
+        "textlint": "^13.3.3",
+        "textlint-filter-rule-comments": "^1.2.2",
+        "textlint-rule-alex": "^4.0.0",
+        "textlint-rule-date-weekday-mismatch": "^1.0.6",
+        "textlint-rule-doubled-spaces": "^1.0.2",
+        "textlint-rule-en-capitalization": "^2.0.3",
+        "textlint-rule-no-todo": "^2.0.1",
+        "textlint-rule-preset-japanese": "^9.0.0",
+        "textlint-rule-stop-words": "^4.0.0",
+        "textlint-rule-terminology": "^4.0.0",
+        "textlint-rule-write-good": "^2.0.0"
+    }
 }

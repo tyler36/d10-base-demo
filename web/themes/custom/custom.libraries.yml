@@ -2,8 +2,8 @@ global-styling:
   version: 1.0
   css:
    theme:
-     css/app.css: {}
+     dist/app.css: {}
 global-scripts:
   version: 1.0
   js:
-     js/app.js: {}
+     assets/js/app.js: {}
