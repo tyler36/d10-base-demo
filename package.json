@@ -1,7 +1,7 @@
 {
     "scripts": {
-        "dev": "tailwindcss --postcss -i ./web/themes/custom/assets/css/app.css -o ./web/themes/custom/dist/app.css --watch",
-        "build": "tailwindcss --postcss -i ./web/themes/custom/assets/css/app.css -o ./web/themes/custom/dist/app.css --minify"
+        "dev": "tailwindcss --postcss -i ./web/themes/custom/custom/assets/css/app.css -o ./web/themes/custom/custom/dist/app.css --watch",
+        "build": "tailwindcss --postcss -i ./web/themes/custom/custom/assets/css/app.css -o ./web/themes/custom/custom/dist/app.css --minify"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.7",
